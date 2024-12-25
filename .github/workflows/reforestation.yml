@@ -38,5 +38,5 @@ jobs:
         with:
           force: true
           directory: "."
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           branch: main
